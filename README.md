@@ -1,4 +1,3 @@
-# CSSBattles
 # CSS Battles Fun Zone
 
 Welcome to the CSS Battles Fun Zone! 🚀
