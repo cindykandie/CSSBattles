@@ -1,1 +1,1 @@
-![Join CSS Battles](/images/boxedup.png)
+![Join CSS Battles](/images/bigbox.png)
