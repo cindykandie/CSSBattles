@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Gift Box</title>
+</head>
+<body>
+    <div></div>
+    <div class='a'></div>
+    <div class='b'></div>
+    <div class='b c'></div>
+    <div class='b d'></div>
+    <div class='b e'></div>
+    <div class='b f e'></div>
+    <div class='b d f g'></div>
+    <div class='b c f h'></div>
+    <div class='b f i'></div>
+    <style>
+    body {
+        background: #FFF45F;
+    }
+    div {
+        position: absolute;
+        top: 90px;
+        left: 140px;
+        width: 120px;
+        height: 120px;
+        background: #0098D1;
+    }
+    .a{
+        left: 200px;
+        width: 60px;
+        background: #403571;
+    }
+    .b{
+        background: transparent;
+        width: 0;
+        height:0;
+        border: 30px solid transparent;
+        top: 30px;
+        left: 140px;
+        border-color: transparent transparent #403571 #403571;
+    }
+    .c{
+        rotate: 180deg;
+        top: 90px;
+        left: 80px;
+    }
+    .d{
+        rotate: 270deg;
+        top: 150px;
+        left: 80px;
+    }
+    .e{
+        rotate: 90deg;
+        top: 210px;
+        left: 140px;   
+    }
+    .f{
+        border-color: transparent transparent #0098D1 #0098D1;
+        rotate: 180deg;
+        left: 200px;
+    }
+    .g{
+        rotate: 0deg;
+        left: 260px;
+    }
+        .h{
+        rotate: 90deg;
+        left: 260px;
+    }
+        .i{
+        rotate: 270deg;
+        left: 200px;
+    }
+    /* MINIFIED STYLING
+    body{background:#fff45f}div{position:absolute;top:90px;left:140px;width:120px;height:120px;background:#0098d1}.a{left:200px;width:60px;background:#403571}.b{background:0 0;width:0;height:0;border:30px solid transparent;top:30px;left:140px;border-color:transparent transparent #403571 #403571}.c,.d{left:80px}.c{rotate:180deg;top:90px}.d{rotate:270deg;top:150px}.e{rotate:90deg;top:210px;left:140px}.f{border-color:transparent transparent #0098d1 #0098d1;rotate:180deg;left:200px}.g,.h{left:260px}.g{rotate:0deg}.h{rotate:90deg}.i{rotate:270deg;left:200px} */
+    </style>
+
+</body>
+</html>
