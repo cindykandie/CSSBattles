@@ -1,0 +1,1 @@
+![Join CSS Battles](/images/invertedgirl.png)
