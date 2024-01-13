@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div></div>
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="b c"></div>
+    <div class="d"></div>
+    <div class="d e"></div>
+    <style>
+      body {
+        background: #7bafde;
+      }
+
+      div {
+        position: absolute;
+        top: 50;
+        left: 100;
+        width: 0;
+        height: 0;
+        background: transparent;
+        border-left: 45px solid #000039;
+        border-right: 45px solid transparent;
+        border-bottom: 30px solid #000039;
+        border-top: 30px solid transparent;
+        display: inline-block;
+      }
+      .a {
+        top: 190;
+        left: 210;
+        rotate: 180deg;
+      }
+      .b {
+        left: 210;
+        border-right: 45px solid #000039;
+        border-left: 45px solid transparent;
+      }
+      .c {
+        top: 190;
+        left: 100;
+        rotate: 180deg;
+      }
+      .d {
+        top: 130;
+        width: 90;
+        height: 40px;
+        border: 0 solid transparent;
+        background: #6867d4;
+      }
+      .e {
+        left: 210;
+      }
+      /* MINIFIED STYLE
+.a,.b{left:210}.a,.c{top:190;rotate:180deg}body{background:#7bafde}div{position:absolute;top:50;left:100;width:0;height:0;background:0 0;border-left:45px solid #000039;border-right:45px solid transparent;border-bottom:30px solid #000039;border-top:30px solid transparent;display:inline-block}.b{border-right:45px solid #000039;border-left:45px solid transparent}.c{left:100}.d{top:130;width:90;height:40px;border:0 solid transparent;background:#6867d4}.e{left:210} */
+    </style>
+  </body>
+</html>
