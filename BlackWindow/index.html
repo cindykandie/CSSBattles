@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Black Window</title>
+  </head>
+  <body>
+    <div></div>
+    <div class="a"></div>
+    <div class="a b"></div>
+    <div class="c"></div>
+    <style>
+      body {
+        background: #000000;
+      }
+      div {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 320;
+        height: 220;
+        background: #fff;
+      }
+      .a {
+        width: 40;
+        height: 500;
+      }
+      .b {
+        rotate: 90deg;
+        top: -80;
+        left: -20px;
+      }
+      .c {
+        background: #000;
+        width: 40;
+        height: 40;
+      }
+      /* minified style
+.c,body{background:#000}.a,.c{width:40}div{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:320;height:220;background:#fff}.a{height:500}.b{rotate:90deg;top:-80;left:-20px}.c{height:40} */
+    </style>
+  </body>
+</html>
