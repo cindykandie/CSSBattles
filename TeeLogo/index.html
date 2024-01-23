@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div></div>
+    <div class="a"></div>
+    <div class="a b"></div>
+    <div class="a b c"></div>
+    <div class="d"></div>
+    <div class="d e"></div>
+    <style>
+      body {
+        background: #401653;
+      }
+      div {
+        position: absolute;
+        top: 75;
+        left: 145;
+        width: 110;
+        height: 110;
+        background: #a94ea4;
+        border-radius: 100px;
+      }
+      .a {
+        top: 170;
+        left: 138;
+        background: transparent;
+        width: 0;
+        height: 0;
+        border-radius: 0;
+        border-left: 60px solid transparent;
+        border-right: 65px solid transparent;
+        border-top: 55px solid #a94ea4;
+      }
+      .b {
+        top: 81;
+        border-radius: 0;
+        border-left: 40px solid #a94ea4;
+        border-right: 50px solid transparent;
+        border-top: 45px solid transparent;
+        border-bottom: 45px solid #a94ea4;
+      }
+      .c {
+        rotate: 270deg;
+        left: 170;
+        top: 83;
+      }
+      .d {
+        width: 60;
+        height: 10;
+        left: 170;
+        background: #f7bed9;
+        border-radius: 10;
+        top: 115;
+      }
+      .e {
+        rotate: 90deg;
+        top: 148;
+      }
+      /* MINIFIED STYLE
+  .a,.b{border-radius:0}body{background:#401653}div{position:absolute;top:75;left:145;width:110;height:110;background:#a94ea4;border-radius:100px}.a{top:170;left:138;background:0 0;width:0;height:0;border-left:60px solid transparent;border-right:65px solid transparent;border-top:55px solid #a94ea4}.c,.d{left:170}.b{top:81;border-left:40px solid #a94ea4;border-right:50px solid transparent;border-top:45px solid transparent;border-bottom:45px solid #a94ea4}.c{rotate:270deg;top:83}.d{width:60;height:10;background:#f7bed9;border-radius:10;top:115}.e{rotate:90deg;top:148} */
+    </style>
+  </body>
+</html>
