@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Warrior Pose</title>
+  </head>
+
+  <body>
+    <div class="a"></div>
+    <div class="b"></div>
+    <style>
+      body {
+        background: #f49fc7;
+      }
+
+      div {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, 0);
+      }
+
+      .a {
+        border-bottom: 125px solid #810070;
+        border-left: 100px solid transparent;
+        border-right: 100px solid transparent;
+        background: transparent;
+        width: 0;
+        height: 0;
+      }
+
+      .b {
+        width: 275;
+        height: 275;
+        background: transparent;
+        border: 30px solid #810070;
+        rotate: 50deg;
+        bottom: -180px;
+        left: 8%;
+        transform: skew(10deg);
+      }
+
+      /* MINIFIED STYLE
+  .a,.b{background:0 0}body{background:#f49fc7}div{position:absolute;left:50%;bottom:0;transform:translate(-50%,0)}.a{border-bottom:125px solid #810070;border-left:100px solid transparent;border-right:100px solid transparent;width:0;height:0}.b{width:275;height:275;border:30px solid #810070;rotate:50deg;bottom:-180px;left:8%;transform:skew(10deg)} */
+    </style>
+  </body>
+</html>

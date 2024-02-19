@@ -1,1 +1,1 @@
-![Join CSS Battles](/images/vacuumholes.png)
+![Warrior Pose](/images/warriorpose.png)
