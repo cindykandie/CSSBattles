@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div></div>
+    <div class="a">
+        <div class="b"></div>
+    </div>
+    <div class="a d">
+        <div class="b"></div>
+    </div>
+    <div class="a c">
+        <div class="b"></div>
+    </div>
+    <div class="a c e">
+        <div class="b"></div>
+    </div>
+    <style>
+        body {
+            background: #fad3e5;
+        }
+
+        div {
+            position: absolute;
+            top: 50;
+            left: 100;
+            width: 100px;
+            height: 100px;
+            background: #fad3e5;
+            border: 50px solid #8b0051;
+        }
+
+        .a {
+            top: 60;
+            left: 200;
+            width: 50px;
+            height: 30px;
+            background: #fad3e5;
+            border: none;
+        }
+
+        .b {
+            top: 10;
+            left: 0;
+            border: none;
+            background: #8b0051;
+            width: 50px;
+            height: 10px;
+        }
+
+        .c {
+            rotate: 90deg;
+            top: 160;
+            left: 250;
+        }
+
+        .d {
+            top: 210;
+            left: 150;
+        }
+
+        .e {
+            left: 100;
+            top: 110;
+        }
+
+        /* MINIFIED STYLE
+.a,body,div{background:#fad3e5}.a,.b{border:none;width:50px}div{position:absolute;top:50;left:100;width:100px;height:100px;border:50px solid #8b0051}.a{top:60;left:200;height:30px}.b{top:10;left:0;background:#8b0051;height:10px}.c{rotate:90deg;top:160;left:250}.d{top:210;left:150}.e{left:100;top:110} */
+    </style>
+</body>
+
+</html>
