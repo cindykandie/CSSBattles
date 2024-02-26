@@ -1,0 +1,1 @@
+![Wall Hinge Pose](/images/wallhinge.png)
