@@ -1,0 +1,1 @@
+![Fidget Spinner CSS Battles](/images/fidgetspinner.png)
