@@ -1,0 +1,1 @@
+![Side Stairs](/images/sidestairs.png)
