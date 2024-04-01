@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+    <div class="c d"></div>
+    <style>
+      body {
+        background: #0a6190;
+      }
+      div {
+        position: absolute;
+        left: 130;
+        top: 80;
+        width: 140;
+        height: 140;
+        background: #eff8fe;
+      }
+      .a {
+        rotate: 47deg;
+        transform: skewX(4deg);
+      }
+      .b {
+        top: 130;
+        left: 75;
+        width: 250;
+        height: 40;
+      }
+      .c {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        border-left: 20px solid #eff8fe;
+        background: transparent;
+        left: 325;
+        top: 130;
+      }
+      .d {
+        left: 35;
+        border-right: 20px solid #eff8fe;
+        border-left: 20px solid #0a6190;
+      }
+      /* minified style
+    .b,.c{top:130}body{background:#0a6190}div{position:absolute;left:130;top:80;width:140;height:140;background:#eff8fe}.a{rotate:47deg;transform:skewX(4deg)}.b{left:75;width:250;height:40}.c{width:0;height:0;border-top:20px solid transparent;border-bottom:20px solid transparent;border-left:20px solid #eff8fe;background:0 0;left:325}.d{left:35;border-right:20px solid #eff8fe;border-left:20px solid #0a6190} */
+    </style>
+  </body>
+</html>
