@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="outer">
+        <p class="inner"></p>
+      </div>
+      <div class="outer a">
+        <p class="inner"></p>
+      </div>
+      <div class="outer b">
+        <p class="inner"></p>
+      </div>
+      <div class="outer a c">
+        <p class="inner"></p>
+      </div>
+      <style>
+        body{
+          background: #085328;
+        }
+      .outer {
+        position: absolute;
+        top: 8;
+        left: -180;
+        border: 40px solid #49C85B;
+        border-radius: 50px 50px 0 0;
+        background-color: #49C85B;
+        width:220px;
+        rotate:45deg;
+      }
+      
+      .inner {
+        border-radius: 10px;
+        background: #085328;
+        margin: 0;
+        padding: 5rem;
+      }
+      .a{
+        left: 30;
+        top: 210;
+        rotate:-45deg;
+      }
+        .b{
+          left: 280;
+          rotate:-45deg;
+        }
+        .c{
+          rotate: -135deg;
+        top: -150;
+        }
+      /* minified style
+      body{background:#085328}.outer{position:absolute;top:8;left:-180;border:40px solid #49c85b;border-radius:50px 50px 0 0;background-color:#49c85b;width:220px;rotate:45deg}.a,.b{rotate:-45deg}.inner{border-radius:10px;background:#085328;margin:0;padding:5rem}.a{left:30;top:210}.b{left:280}.c{rotate:-135deg;top:-150} */
+      </style>
+      
+</body>
+</html>
