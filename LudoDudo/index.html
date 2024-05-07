@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class='a'></div>
+        <div class='a b'></div>
+        <div class='a c'></div>
+        <div class='a d e'></div>
+        <div class='a b d f'></div>
+        <div class='a c d g'></div>
+      </div>
+      
+      <style>
+        body{
+          background: #0A6190;
+        }
+        div {
+          position: absolute;
+          top: 60;
+          left: 100;
+          width: 200px;
+          height: 180px;
+          background-image:linear-gradient(to bottom, #328FC1 50%, #EFF8FE 0%);
+        }
+        .a{
+          width: 30px;
+          height: 30px;
+          background: #EFF8FE;
+          border-radius: 100%;
+          left: 15;
+          top: 15;
+        }
+        .b{
+          left: 60;
+        }
+        .c{
+          left: 105;
+        }
+        .d{
+          top: 135;
+          background: #328FC1;
+        }
+        .e{
+          left: 155;
+        }
+        .f{
+          left: 65;
+        }
+        .g{
+          left: 110;
+        }
+      /* 
+      minified style
+      body{background:#0a6190}div{position:absolute;top:60;left:100;width:200px;height:180px;background-image:linear-gradient(to bottom,#328fc1 50%,#eff8fe 0)}.a{width:30px;height:30px;background:#eff8fe;border-radius:100%;left:15;top:15}.b{left:60}.c{left:105}.d{top:135;background:#328fc1}.e{left:155}.f{left:65}.g{left:110} */
+      </style>
+</body>
+</html>
