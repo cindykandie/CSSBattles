@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class='a'></div>
+<div class='a b'></div>
+<div class='c'>
+  <div class='d'></div>
+  <div class='d'></div>
+  <div class='d'></div>
+  <div class='d'></div>
+  <div class='d'></div>
+  <div class='d'></div>
+  <div class='d'></div>
+</div>
+<style>
+  body{
+    background: #4F77FF;
+  }
+  .a {
+    position: absolute;
+    top: 35;left: 65;
+    width: 0;height: 0;
+    border: 115px solid transparent;
+    background: transparent;
+    border-left: 115px solid #FFF;
+  }
+  .b{
+    rotate: 180deg;
+    left: 105;
+  }
+  .c{
+    display: flex;
+    background: #4F77FF;
+    gap: 20px;
+    position: absolute;
+    top: 135;left: 35;
+  }
+  .d{
+    background: #fff;
+    width: 30;height: 30;
+    border-radius: 100%;
+  }
+/* minified style
+.a,.c{position:absolute}body{background:#4f77ff}.a{top:35;left:65;width:0;height:0;border:115px solid transparent;background:0 0;border-left:115px solid #fff}.b{rotate:180deg;left:105}.c{display:flex;background:#4f77ff;gap:20px;top:135;left:35}.d{background:#fff;width:30;height:30;border-radius:100%} */
+</style>
+
+</body>
+</html>
