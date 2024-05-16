@@ -1,0 +1,1 @@
+![Hypnosis CSS Battles](/images/hypnosis.png)

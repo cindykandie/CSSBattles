@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div></div>
+<div class='a'></div>
+<div class='a b'></div>
+<div class='a b c'></div>
+<style>
+  body{
+    background: #6592CF;
+  }
+  div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 319px;
+    height: 200px;
+    background: #243D83;
+  }
+  .a{
+    width: 235px;
+    height: 120px;
+    background: #6592CF;
+  }
+  .b{
+    border-radius: 100%;
+    background:#6592CF;
+    width: 120px;
+    border: 40px solid #243D83;
+  }
+  .c{
+    background: #243D83;
+     width: 0px;
+    height: 0px;
+  }
+/* minified style
+.a,.b,body{background:#6592cf}div{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:319px;height:200px;background:#243d83}.a{width:235px;height:120px}.b{border-radius:100%;width:120px;border:40px solid #243d83}.c{background:#243d83;width:0;height:0} */
+</style>
+
+</body>
+</html>
