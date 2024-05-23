@@ -1,0 +1,1 @@
+![WiFi Icon CSS Battles](/images/wifiicon.png)
