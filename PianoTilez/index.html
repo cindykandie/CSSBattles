@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="a"></div>
+    <div class="b"></div>
+    <div></div>
+    <style>
+      body {
+        display: flex;
+        margin: 0;
+        justify-items: space-around;
+        gap: 40px;
+        padding: auto;
+        justify-content: center;
+        background: #be3184;
+      }
+      div {
+        width: 40px;
+        height: 300px;
+        background: #611b3f;
+      }
+      .a {
+        background: linear-gradient(
+          to bottom,
+          #611b3f 26.5%,
+          #be3184 26.5% 73.5%,
+          #611b3f 73.5%
+        );
+      }
+      .b {
+        background: linear-gradient(
+          to bottom,
+          #611b3f 40%,
+          #be3184 40% 60%,
+          #611b3f 60%
+        );
+      }
+    </style>
+  </body>
+</html>
