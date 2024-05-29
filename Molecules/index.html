@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Molecules</title>
+</head>
+<body>
+    <div class='a'>
+        <div class='b e'></div>
+        <div class='b c f'></div>
+    </div>
+    <div class='a'>
+      <div class='b d'></div>
+      <div class='b c d'></div>
+    </div>
+    <style>
+      body{
+        background: #4F77FF;
+        display: flex;
+        margin: 0 80px;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .a {
+        width: 100px;
+        height: 100px;
+        background: #fff;
+        border-radius: 100%;
+      }
+      .b{
+        background: #4F77FF;
+        width: 20px;
+        height: 60px;
+        position: absolute;
+        top: 120;
+        left: 120;
+        border-radius: 12px;
+      }
+      .c{
+        rotate: 90deg;
+      }
+      .d{
+         left: 260;
+      }
+      .e{
+        rotate: 45deg;
+      }
+      .f{
+        rotate: -45deg;
+      }
+      /* minified style
+     body{background:#4f77ff;display:flex;margin:0 80px;justify-content:space-between;align-items:center}.a{width:100px;height:100px;background:#fff;border-radius:100%}.b{background:#4f77ff;width:20px;height:60px;position:absolute;top:120;left:120;border-radius:12px}.c{rotate:90deg}.d{left:260}.e{rotate:45deg}.f{rotate:-45deg} */
+    </style>
+    
+</body>
+</html>
