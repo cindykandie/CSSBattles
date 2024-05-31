@@ -1,0 +1,1 @@
+![Steps Counter CSS Battles](/images/stepscounter.png)
