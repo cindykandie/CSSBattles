@@ -1,0 +1,1 @@
+![Join CSS Battles](/images/fourcircles.png)
