@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </section>
+      <div class='b'></div>
+      <div class='b c'></div>
+      <style>
+        body{
+          background: #243D83;
+        }
+        section{
+          display: grid;
+          grid-template-columns: auto auto;
+          column-gap: 200px;
+          row-gap: 100px;
+          justify-content: center;
+          margin-top: 40px;
+        }
+        div {
+          width: 60px;
+          height: 60px;
+          background: #6592CF;
+          border-radius:100%;
+        }
+        .b{
+          position: absolute;
+          left: 0;
+          top: 65;
+           width: 800px;
+          border-radius:0;
+          height:10px;
+          background: #243D83;
+        }
+        .c{
+           top: 225;
+        }
+      /* minified
+      .b,body{background:#243d83}section{display:grid;grid-template-columns:auto auto;column-gap:200px;row-gap:100px;justify-content:center;margin-top:40px}div{width:60px;height:60px;background:#6592cf;border-radius:100%}.b{position:absolute;left:0;top:65;width:800px;border-radius:0;height:10px}.c{top:225} */
+      </style>
+      
+</body>
+</html>
