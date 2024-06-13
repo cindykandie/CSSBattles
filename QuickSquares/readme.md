@@ -1,0 +1,1 @@
+![Quick Squares CSS Battles](/images/quicksquares.png)
