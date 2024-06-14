@@ -1,0 +1,1 @@
+![Blue Spinner CSS Battles](/images/bluespinner.png)
