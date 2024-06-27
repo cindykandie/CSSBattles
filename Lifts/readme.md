@@ -1,0 +1,1 @@
+![Lifts CSS Battles](/images/lifts.png)
