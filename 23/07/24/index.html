@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div></div>
+<div class="a"></div>
+<div class="b"></div>
+<div class="c"></div>
+<div class="c a"></div>
+<div class="c b"></div>
+<style>
+    body{
+    background:linear-gradient(to bottom, #4F77FF 41.5%,#EFF8FE 41.5% 58.5%, #4F77FF 58.5%);
+  }
+  div {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 150px;
+    height: 75px;
+    background: #EFF8FE;
+    border-radius: 0 0 100px 100px;
+  }
+  .a{
+  left:125;
+  }
+  .b{
+  left: 250;
+  }
+.c{
+    border-radius:100px 100px 0 0 ;
+    top: 225;
+}
+/* body{background:linear-gradient(to bottom,#4f77ff 41.5%,#eff8fe 41.5% 58.5%,#4f77ff 58.5%)}div{position:absolute;top:0;left:0;width:150px;height:75px;background:#eff8fe;border-radius:0 0 100px 100px}.a{left:125}.b{left:250}.c{border-radius:100px 100px 0 0;top:225} */
+</style>
+
+</body>
+</html>
